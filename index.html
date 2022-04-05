@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.min.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <link rel="stylesheet" href="css/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <a class="top-logo" href="#">
+            <img src="images/logo.svg" alt="">
+          </a>
+          <div class="header__top-info">
+            <a class="header__top-info__btn" href="#contact-us">
+              Заказать консультацию
+            </a>
+            <button>
+              Скачать прайс-лист
+            </button>
+          </div>
+          <div class="header__menu-btn">
+            <div class="header__menu-row"></div>
+            <div class="header__menu-row"></div>
+            <div class="header__menu-row"></div>
+          </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#">
+                  О компании
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#">
+                  Доставка и оплата
+                </a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-item__link" href="#" style="background-image: url(images/pngwing.com.png);">
+                  Контакты
+                </a>
+                <div class="drop-down">
+                  <div class="drop-down__inner">
+                    <div class="drop-down__top">
+                      <a class="drop-down__top-phone" href="tel:99999999999">
+                        +9 (999) 99-99-999
+                      </a>
+                      <a class="drop-down__top-mail" href="mailto:email@mail.ru">
+                        email@mail.ru
+                      </a>
+                    </div>
+                    <div class="drop-down__bottom">
+                      <p class="drop-down__bottom-text">
+                        Часы работы: <br> пн-пт с 8:00 до 18:30
+                      </p>
+                    </div>
+                    <a class="drop-down__bottom-btn" href="#">
+                      Подробнее
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="menu__list-item none">
+                <a href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <a class="logo" href="#">
+            <img src="images/logo.svg" alt="">
+          </a>
+          <div class="catalog-nav">
+            <div class="catalog-nav__title">
+              <p> Каталог </p>
+              <div class="catalog-nav__arrow">
+                <img class="arrow" src="images/left-arrow.png" alt="">
+              </div>
+            </div>
+            <div class="catalog-nav__text">
+              <div class="catalog-nav__text-inner">
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+                <ul>
+                  <li><a href="#"></a>Арматурный прокат</li>
+                  <li><a href="#"></a>Арматура рифленная</li>
+                  <li><a href="#"></a>Арматура гладкая</li>
+                  <li><a href="#"></a>Катанка</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <form class="search__form">
+            <input class="search__input" type="text" placeholder="Поиск...">
+            <button class="search__button" type="submit">
+              Найти
+            </button>
+            <div class="search__result">
+              <a class="search__result-title">T-Shirt with Logo</a>
+              <a class="search__result-title">V-Neck T-Shirt</a>
+              <a class="search__result-title">T-Shirt</a>
+              <a class="search__result-title">T-Shirt with Logo</a>
+              <a class="search__result-title">V-Neck T-Shirt</a>
+              <a class="search__result-title">T-Shirt</a>
+              <a class="search__result-title">T-Shirt with Logo</a>
+              <a class="search__result-title">V-Neck T-Shirt</a>
+              <a class="search__result-title">T-Shirt</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="slider-banner">
+    <div class="container">
+      <div class="slider-banner__inner">
+        <div class="slider-banner__item">
+          <div class="slider-banner__info">
+            <h2 class="slider-banner__title">
+              ЛУЧШАЯ ЦЕНА
+            </h2>
+            <p class="slider-banner__text">
+              Покупайте металл от производителя
+            </p>
+            <a class="slider-banner__link" href="#">
+              Заказать
+            </a>
+          </div>
+          <div class="slider-banner__img">
+            <img src="images/slide1webp.webp" alt="">
+          </div>
+        </div>
+        <div class="slider-banner__item">
+          <div class="slider-banner__info">
+            <h2 class="slider-banner__title">
+              ДОСТАВКА ОТ 50 КГ
+            </h2>
+            <p class="slider-banner__text">
+              Газель, борт, манипулятор, фура
+            </p>
+            <a class="slider-banner__link" href="#">
+              В каталог
+            </a>
+          </div>
+          <div class="slider-banner__img">
+            <img src="images/slide_delivery.webp" alt="">
+          </div>
+        </div>
+        <div class="slider-banner__item">
+          <div class="slider-banner__info">
+            <h2 class="slider-banner__title">
+              ЗАПИСЬ НА САМОВЫВОЗ
+            </h2>
+            <p class="slider-banner__text">
+              Получите металл в удобное время
+            </p>
+            <a class="slider-banner__link" href="#">
+              Заказать
+            </a>
+          </div>
+          <div class="slider-banner__img">
+            <img src="images/slide_self_pickup.webp" alt="">
+          </div>
+        </div>
+        <div class="slider-banner__item">
+          <div class="slider-banner__info">
+            <h2 class="slider-banner__title">
+              ЗАКАЖИТЕ ОНЛАЙН
+            </h2>
+            <p class="slider-banner__text">
+              Получите счет через 15 минут
+            </p>
+            <a class="slider-banner__link" href="#">
+              Заказать
+            </a>
+          </div>
+          <div class="slider-banner__img">
+            <img src="images/slade_chek_15.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about-us">
+    <div class="container">
+      <div class="about-us__inner">
+        <div class="about-us__img">
+          <img src="images/about.jpg" alt="">
+        </div>
+        <div class="about-us__info">
+          <h2 class="about-us__title">
+            О нашей компании
+          </h2>
+          <div class="about-us__line"></div>
+          <p class="about-us__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus recusandae esse ab
+            consectetur commodi numquam atque sint
+          </p>
+          <ul>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus recusandae
+              esse ab
+              consectetur commodi numquam atque sint, iste adipisci perferendis rerum accusantium. Molestias cum ipsum
+              reiciendis in?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus
+              recusandae
+              esse ab
+              consectetur commodi numquam atque sint, iste adipisci perferendis rerum accusantium. Molestias cum ipsum
+              reiciendis in?</li>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus recusandae
+              esse ab
+              consectetur commodi numquam atque sint, iste adipisci perferendis rerum accusantium. Molestias cum ipsum
+              reiciendis in?</li>
+            <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus recusandae
+              esse ab
+              consectetur commodi numquam atque sint, iste adipisci perferendis rerum accusantium. Molestias cum ipsum
+              reiciendis in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsam officiis delectus
+              recusandae
+              esse ab
+              consectetur commodi numquam atque sint, iste adipisci perferendis rerum accusantium. Molestias cum ipsum
+              reiciendis in?</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="prices">
+    <div class="container">
+      <div class="prices__inner">
+        <div class="col-12">
+          <div class="main-card">
+            <div class="flex-grow-1">
+              <h2 class="main-card__title">
+                Арматурный прокат </h2>
+              <div class="main-card__img">
+                <img src="images/397x120-armaturnyy-prokat.jpg" alt="section_image">
+              </div>
+              <div class="main-card__price">
+                <ul>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Арматура гладкая </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 32 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Арматура рифленая </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 32 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Катанка </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 21 ₽/м
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="main-card__button">
+              15 позиций →
+            </a>
+          </div>
+        </div>
+        <div class="col-12 ">
+          <div class="main-card">
+            <div class="flex-grow-1">
+              <h2 class="main-card__title">
+                Листовой прокат </h2>
+              <div class="main-card__img">
+                <img src="images/397kh120-listovoy-prokat.jpg" alt="section_image">
+              </div>
+              <div class="main-card__price">
+                <ul>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Лист горячекатаный </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 1 275 ₽/м
+                      <sup>2</sup> </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Лист рифленый </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 2 029 ₽/м
+                      <sup>2</sup> </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Лист холоднокатаный </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 354 ₽/м
+                      <sup>2</sup> </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="main-card__button">
+              24 позиции →
+            </a>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="main-card">
+            <div class="flex-grow-14">
+              <h2 class="main-card__title">
+                Сортовой прокат </h2>
+              <div class="main-card__img">
+                <img src="images/397kh120-Sortovoy-prokat.jpg" alt="section_image">
+              </div>
+              <div class="main-card__price">
+                <ul>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Квадрат </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 67 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Полоса </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 67 ₽/м
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="main-card__button">
+              7 позиций →
+            </a>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="main-card">
+            <div class="flex-grow-1">
+              <h2 class="main-card__title">
+                Трубный прокат </h2>
+              <div class="main-card__img">
+                <img src="images/397kh120-Trubnyy-prokat.jpg" alt="section_image">
+              </div>
+              <div class="main-card__price">
+                <ul>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Труба профильная </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 50 ₽/м
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="main-card__button">
+              37 позиций →
+            </a>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="main-card">
+            <div class="flex-grow-1">
+              <h2 class="main-card__title">
+                Фасонный прокат </h2>
+              <div class="main-card__img">
+                <img src="images/397kh120-Fasonnyy-prokat.jpg" alt="section_image">
+              </div>
+              <div class="main-card__price">
+                <ul>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Балка двутавровая </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 874 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Рельсы </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 6 819 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Уголок </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 96 ₽/м
+                    </span>
+                  </li>
+                  <li class="main-card__price-item">
+                    <a class="underline-stroke-link" href="#">
+                      <span>
+                        Швеллер </span>
+                    </a>
+                    <span class="main-card__price-separator"></span>
+                    <span>от 405 ₽/м
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <a href="#" class="main-card__button">
+              53 позиции →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="benefits">
+    <div class="container">
+      <h2 class="benefits__title">
+        Наши премущества
+      </h2>
+      <div class="benefits__inner">
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben1.png" alt="">
+          </div>
+          <p class="benefits__text">
+            Поставки напрямую от производителя
+          </p>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben2.png" alt="">
+          </div>
+          <p class="benefits__text">
+            Вы всегда можете рассчитывать на скидку от 5 до 25%
+          </p>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben3.png" alt="">
+          </div>
+          <p class="benefits__text">
+            Широкий ассортимент на любой вкус
+          </p>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben4.png" alt="">
+          </div>
+          <p class="benefits__text">
+            Бесплатная доставка по городу в течение 24 часов
+          </p>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben5.png" alt="">
+          </div>
+          <p class="benefits__text">
+            90% клиентов приходят к нам по рекомендации друзей
+          </p>
+        </div>
+        <div class="benefits__item">
+          <div class="benefits__item-img">
+            <img src="images/ben6.png" alt="">
+          </div>
+          <p class="benefits__text">
+            Предлагаем только сертифицированную продукцию
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-work">
+    <div class="container">
+      <h2 class="our-work__title">
+        Как мы работаем
+      </h2>
+      <div class="our-work__inner">
+        <div class="our-work__item">
+          <p class="our-work__number">
+            01
+          </p>
+          <p class="our-work__text">
+            Оставляете заявку на сайте
+          </p>
+        </div>
+        <div class="our-work__item">
+          <p class="our-work__number">
+            02
+          </p>
+          <p class="our-work__text">
+            Проверяем наличие товара на складе
+          </p>
+        </div>
+        <div class="our-work__item">
+          <p class="our-work__number">
+            03
+          </p>
+          <p class="our-work__text">
+            Сообщаем Вам условия и сроки доставки товара
+          </p>
+        </div>
+        <div class="our-work__item">
+          <p class="our-work__number">
+            04
+          </p>
+          <p class="our-work__text">
+            Подписываем договор
+          </p>
+        </div>
+        <div class="our-work__item">
+          <p class="our-work__number">
+            05
+          </p>
+          <p class="our-work__text">
+            Вы получаете товар и оцениваете его качество
+          </p>
+        </div>
+        <div class="our-work__item">
+          <p class="our-work__number">
+            06
+          </p>
+          <p class="our-work__text">
+            Оплачиваете
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container">
+      <h2 class="news__title">
+        Последние новости
+      </h2>
+      <div class="news__inner">
+        <a class="snip1493" href="#">
+          <div class="image"><img src="images/blueprint.jpg" alt="ls-sample1" />
+          </div>
+          <div class="news__info">
+            <div class="date"><span class="day">28</span><span class="month">Oct</span></div>
+            <h3>The World Ended Yesterday</h3>
+            <p>
+              You know what we need, Hobbes? We need an attitude. Yeah, you can't be cool if you don't have an attitude.
+            </p>
+          </div>
+        </a>
+        <a class="snip1493 hover" href="#">
+          <div class="image"><img src="images/blueprint.jpg" alt="ls-sample2" />
+          </div>
+          <div class="news__info">
+            <div class="date"><span class="day">17</span><span class="month">Nov</span></div>
+            <h3>An Abstract Post Heading</h3>
+            <p>
+              Sometimes the surest sign that intelligent life exists elsewhere in the universe is that none of it has
+              tried to
+              contact us.
+            </p>
+          </div>
+        </a>
+        <a class="snip1493" href="#">
+          <div class="image"><img src="images/blueprint.jpg" alt="ls-sample3" />
+          </div>
+          <div class="news__info">
+            <div class="date"><span class="day">01</span><span class="month">Dec</span></div>
+            <h3>Down with this sort of thing</h3>
+            <p>
+              I don't need to compromise my principles, because they don't have the slightest bearing on what happens to
+              me
+              anyway.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="call-to-action" style="background-image: url(images/warehouse2.jpg);">
+    <div class="container">
+      <div class="call-to-action__inner">
+        <h2>
+          Узнайте подробнее о...
+        </h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ratione, quis dolorum vero eligendi minus
+          dignissimos pariatur dolor consequatur et, delectus blanditiis cum vitae culpa molestias saepe eaque sit
+          inventore.
+        </p>
+        <a href="#">
+          Подробнее
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="contact-us" class="contact">
+    <div class="container">
+      <div class="form-container">
+        <div class="left-container">
+          <div class="left-inner-container">
+            <h2>Оставьте заявку</h2>
+            <p>Whether you have a question, want to start a project or simply want to connect.</p>
+            <br>
+            <p>Feel free to send me a message in the contact form</p>
+          </div>
+        </div>
+        <div class="right-container">
+          <div class="right-inner-container">
+            <form action="#">
+              <p>* - обязательные поля</p>
+              <div class="social-container">
+                <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <input type="text" placeholder="Имя *" />
+              <input type="email" placeholder="Email *" />
+              <input type="text" placeholder="Компания" />
+              <input type="phone" placeholder="Телефон *" />
+              <textarea rows="4" placeholder="Комментарий"></textarea>
+              <button>Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="supplier">
+    <div class="container">
+      <h2>Наши поставщики</h2>
+      <div class="supplier__inner">
+        <div class="supplier__item">
+          <img src="images/Milliken-logo-2011.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/brands_02.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/brands_03.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/Milliken-logo-2011.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/Milliken-logo-2011.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/brands_02.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/brands_03.webp" alt="">
+        </div>
+        <div class="supplier__item">
+          <img src="images/Milliken-logo-2011.webp" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="container">
+      <h2>
+        Последние отзывы о нашей продукции
+      </h2>
+      <div class="testimonials__inner">
+        <div class="testimonials__item">
+          <img src="images/profile_1.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+        <div class="testimonials__item">
+          <img src="images/profile_2.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+        <div class="testimonials__item">
+          <img src="images/profile_3.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+        <div class="testimonials__item">
+          <img src="images/profile_1.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+        <div class="testimonials__item">
+          <img src="images/profile_2.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+        <div class="testimonials__item">
+          <img src="images/profile_3.svg" alt="">
+          <h3>
+            Иван Иванов
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, deserunt doloremque mollitia, explicabo
+            expedita molestiae temporibus saepe quidem eligendi tempore facilis eaque dolores velit earum ea atque odit
+            accusantium tempora?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-cta">
+        <div class="row">
+          <div class="col-xl-4">
+            <div class="single-cta">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="cta-text" style="background-image: url(images/location-pin.png);">
+                <h4>Адрес</h4>
+                <span>1010 Avenue, sw 54321, chandigarh</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="single-cta">
+              <i class="fas fa-phone"></i>
+              <div class="cta-text" style="background-image: url(images/phone-orange.png);">
+                <h4>Телефон</h4>
+                <span>+98765432100</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="single-cta">
+              <i class="far fa-envelope-open"></i>
+              <div class="cta-text" style="background-image: url(images/mail.png);">
+                <h4>Почта</h4>
+                <span>mail@info.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-xl-4">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href=""><img src="images/logo.svg" class="img-fluid" alt="logo"></a>
+              </div>
+              <div class="footer-text">
+                <p>Адрес: МО, г. Ивантеевка, ул.Трудовая 3В. <br>
+                  +7 (495) 108-79-47 <br>
+                  Email: info@novametcom.com <br>
+                  Бесплатно по России: <br>
+                  8 (800) 777-19-60 <br>
+                  График работы: пн-пт 9:00 - 18:00 <br>
+                  ИНН/КПП: 5038102762/503801001 <br>
+                  ОГРН: 1135038009875
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Навигация по страницам</h3>
+              </div>
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Доставка/оплата</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Партнеры</a></li>
+                <li><a href="#">Правила сайта</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Навигация по каталогу</h3>
+              </div>
+              <ul>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+                <li><a href="#">Арматурный прокат</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="map-iframe">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167670.0475880942!2d-73.6998658641784!3d40.93320747825623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c28fc6e462ecbb%3A0xe602922fb7e7009f!2sSands%20Point%20Lighthouse!5e0!3m2!1sru!2sru!4v1639479953431!5m2!1sru!2sru"
+        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2018, All Right Reserved</p>
+            </div>
+          </div>
+          <div class="header__top-info">
+            <a class="header__top-info__btn" href="#contact-us">
+              Заказать консультацию
+            </a>
+            <button>
+              Скачать прайс-лист
+            </button>
+          </div>
+        </div>
+        <div class="disclaimer">
+          <p>
+            Цены, указанные на сайте, не являются офертой (в соответствии со ст.435 ГК РФ), и не влекут за собой
+            обязательств по заключению Договора. Окончательная стоимость и сроки поставки уточняются после
+            составления Спецификации и фиксируются в Счете на оплату, а также Спецификации на поставку товара.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src=" https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
